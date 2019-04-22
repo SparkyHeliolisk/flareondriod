@@ -11,11 +11,11 @@
 *
 */
 
-exports.server = '';
+exports.server = 'sim.smogon.com';
 
 exports.port = 8080;
 
-exports.serverid = '';
+exports.serverid = 'showdown';
 
 exports.autoReconnectDelay = 1 * 1;
 exports.connectionTimeout = 2 * 60 * 999999999999999999999999;
@@ -44,9 +44,9 @@ exports.watchconfig = true;
 * Login Details
 */
 
-exports.nick = 'Flareondriod';
+exports.nick = 'Waver-B';
 
-exports.pass = '{insert}';
+exports.pass = '12349';
 
 exports.autoReloginDelay = 60 * 1000;
 
@@ -54,7 +54,7 @@ exports.autoReloginDelay = 60 * 1000;
 * Rooms to join
 */
 
-exports.rooms = [''];
+exports.rooms = ['botdev'];
 
 /*
 * exports.rooms = 'all'; //For joining all rooms
@@ -71,19 +71,15 @@ exports.ignoreRooms = { //Rooms listed here will be ignored by CommandParser (bo
 	//roomid: false
 };
 
-exports.initCmds = ['|/avatar 211']; // Other commands (avatar, blockchallenges, etc)
+exports.initCmds = ['|/avatar 120']; // Other commands (avatar, blockchallenges, etc)
 
 /*
 * Auth configuration
 */
 
 exports.exceptions = { 
-    'potatocomputer': true,
-    'horizonmidday': true,
-    'lostcause146': true,
-    'shinyhunter712': true,
-    'digitaledge': true,
-    'regna': true,
+    'zeruora': true,
+    
 };
 
 /*
